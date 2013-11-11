@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ImageView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="2dp"
+	    android:background="@android:color/background_light"
+	/>		 
+	<TextView  
+	    android:gravity="center_vertical|center_horizontal"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/set_gesture_to_call"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp"
+	/>
+	<ImageView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="2dp"
+	    android:background="@android:color/background_light"
+	/>
+
+	<Spinner
+	    android:id="@+id/set_gesture_to_call_favorite_contact"
+	    android:layout_width="fill_parent"
+	    android:layout_height="50dip"
+	    android:textSize="24pt"         
+        android:textColor="#FF8B1500"
+        android:drawSelectorOnTop="true"
+        android:gravity="center" />
+<!-- 	    android:prompt="@string/choose_contact" -->
+<!-- 	    android:layout_marginTop="4dp" -->
+	
+	<ImageView
+	    android:layout_width="fill_parent"
+	    android:layout_height="2dp"
+	    android:background="@android:color/background_light" />
+		 
+    <android.gesture.GestureOverlayView
+        android:id="@+id/set_gesture_to_call_gesture"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        android:gestureStrokeType="multiple"
+        android:gestureStrokeSquarenessThreshold="0.0"
+        android:gestureStrokeAngleThreshold="0.0"
+	/>
+	<ImageView
+	    android:layout_width="fill_parent" 
+	    android:layout_height="2dp"
+	    android:background="@android:color/background_light"
+	/>		 
+    <LinearLayout
+	    android:layout_marginTop="4dp"
+        android:gravity="bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/set_gesture_to_call_btn_create"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_create" />
+        <Button
+            android:id="@+id/set_gesture_to_call_btn_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_clear" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GestCall</string>
+    <string name="set_gesture_to_call">Selecione um contato e crie um gesto</string>
+    <string name="waiting_gesture_to_act">Gesto para ligação</string>
+    <string name="gesture_not_found">Gesto não encontrado!</string>
+    <string name="gesture_to_call">Ligando para</string>
+    <string name="choose_contact">Escolha um contato:</string>
+    <string name="button_create">Criar</string>
+    <string name="button_finish">Finalizar</string>
+    <string name="button_back">Voltar</string>
+    <string name="button_clear">Limpar</string>
+    <string name="button_setup">Configurar</string>
+    <string name="menu_config">Associar gesto</string>
+    <string name="menu_exit">Sair</string>
+    <string name="menu_list">Listar gestos</string>
+    <string name="gestures_loading">Carregando gestos...</string>
+    <string name="button_add">Add gesture</string>
+    <string name="button_reload">Reload</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_call">Gesto para ligar</string>
+    <string name="title_activity_list_gestures">GestCall AEO</string>
+    <string name="title_activity_create_gesture">GestCall AEO</string>
+    <string name="gestures_error_loading">Não foi possível carregar lista</string>
+    <string name="gestures_empty">Não há gestos</string>
+    <string name="btn_dialog_back">Voltar</string>
+    <string name="btn_dialog_delete">Excluir</string>
+    
+</resources>

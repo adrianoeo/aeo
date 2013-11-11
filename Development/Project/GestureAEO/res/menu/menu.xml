@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_call"
+	          android:icon="@drawable/ic_action_call"
+	          android:title="@string/menu_call"
+	          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_config"
+	          android:icon="@drawable/ic_action_user_add"
+	          android:title="@string/menu_config"
+	          android:showAsAction="ifRoom" />
+    <item android:id="@+id/menu_list"
+	          android:icon="@drawable/ic_view_as_list"
+	          android:title="@string/menu_list"
+	          android:showAsAction="ifRoom" />
+<!--     <item android:id="@+id/menu_exit" -->
+<!-- 	          android:icon="@drawable/ic_content_undo" -->
+<!-- 	          android:title="@string/menu_exit" -->
+<!-- 	          android:showAsAction="never" /> -->
+</menu>
+<!-- 	          android:showAsAction="ifRoom|withText" /> -->
